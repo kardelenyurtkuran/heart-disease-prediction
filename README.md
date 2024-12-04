@@ -31,6 +31,7 @@ Include pseudocode and Python implementation for the developed method.
 
 ## Dataset Information
 The dataset used in this project is sourced from the Heart Disease Dataset available on IEEE Dataport. It contains comprehensive attributes relevant to heart disease diagnosis and prediction. For more details on the dataset attributes, please refer to the official documentation.
+[IEEE Dataport - Heart Disease Dataset](https://ieee-dataport.org/open-access/heart-disease-dataset-comprehensive)
 
 ## Project Workflow
 
