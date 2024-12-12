@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94ef92f0-ef0b-4247-baa0-7035f4dbed88" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/naive-bayes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/K-Nearest Neighbour.py" beforeDir="false" afterPath="$PROJECT_DIR$/K-Nearest Neighbour.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cleaned_scaled_heart_disease_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/cleaned_scaled_heart_disease_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/naive-bayes.py" beforeDir="false" afterPath="$PROJECT_DIR$/naive-bayes.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

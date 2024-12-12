@@ -2,8 +2,15 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import GaussianNB
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+
 
 df = pd.read_csv('cleaned_scaled_heart_disease_data.csv')
+
+# sns.boxplot(data=df[['age', 'resting bp s', 'cholesterol', 'max heart rate', 'oldpeak']])
+# plt.show()
 
 X= df.drop(columns=['target'])
 y=df['target']
