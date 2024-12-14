@@ -12,27 +12,27 @@ df = pd.read_csv("heart_statlog_cleveland_hungary_final.csv")
 
 #------------------Veri Yapısının İncelenmesi-----------------------------------------
 
-# print(df.head()) #veriyi incele
-# print(df.info()) #veriyi incele, type
-# print(df.describe()) #istatistik değerleri incele
-# print(df.isnull().sum()) #eksik veri kontrolü
+print(df.head()) #veriyi incele
+print(df.info()) #veriyi incele, type
+print(df.describe()) #istatistik değerleri incele
+print(df.isnull().sum()) #eksik veri kontrolü
 # print(df['target'].value_counts()) #sınıf dengesini kontrol et
 # sns.histplot(df['age'], kde=True, color='blue', label='Original Age') #ölçeklendirme öncesi veri
-
-
+#
+#
 # #------------------Yinelenen verilerin kaldırılması-----------------------------------
-# duplicates = df.duplicated()
-# print('Tekrarlayan veri sayısı: ', duplicates.sum())
+duplicates = df.duplicated()
+print('Tekrarlayan veri sayısı: ', duplicates.sum())
 # df = df.drop_duplicates()
 # print(df.info())
 #
 # sns.histplot(df['age'], kde=True, color='blue', label='Age Distribution')
 # plt.title('Yaş ve Kalp Hastalığı Dağılımı')
 # plt.show()
-
+#
 # #-------------------Aykırı değer analizi----------------------------------------------
-
-#sürekli değişkenler için
+#
+# # sürekli değişkenler için
 # sns.boxplot(data=df[['age', 'resting bp s', 'cholesterol', 'max heart rate', 'oldpeak']])
 # plt.show()
 # # Aykırı değerler için IQR yöntemi
@@ -81,6 +81,19 @@ df = pd.read_csv("heart_statlog_cleveland_hungary_final.csv")
 # corr = df.corr()
 # sns.heatmap(corr, annot=True, cmap='coolwarm')
 # plt.show()
+# target_corr = corr['target'].sort_values(ascending=False)
+#
+# # Belirli bir eşik değerine göre önemli öznitelikleri seç
+# threshold = 0.1
+# important_features = target_corr[abs(target_corr) > threshold]
+# print("Önemli öznitelikler:\n", important_features)
+#
+# # Zayıf korelasyonlu öznitelikleri çıkar
+# weak_features = target_corr[abs(target_corr) <= threshold].index
+# print("Çıkarılacak öznitelikler:", list(weak_features))
+#
+# # Yeni veri seti oluştur
+# df = df.drop(columns=weak_features)
 #
 # # #----------------Eğitim ve test verilerini ayırma--------------------------------------
 #

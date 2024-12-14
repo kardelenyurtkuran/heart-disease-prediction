@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94ef92f0-ef0b-4247-baa0-7035f4dbed88" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Decission Tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logistic Regression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Neural Networks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Random Forest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Support Vector Machine.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decission Tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Decission Tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/K-Nearest Neighbour.py" beforeDir="false" afterPath="$PROJECT_DIR$/K-Nearest Neighbour.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logistic Regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Logistic Regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cleaned_scaled_heart_disease_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/cleaned_scaled_heart_disease_data.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/naive-bayes.py" beforeDir="false" afterPath="$PROJECT_DIR$/naive-bayes.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +48,9 @@
     "Python.Decission Tree.executor": "Run",
     "Python.K-Nearest Neighbour.executor": "Run",
     "Python.Logistic Regression.executor": "Run",
+    "Python.Neural Networks.executor": "Run",
+    "Python.Random Forest.executor": "Run",
+    "Python.Support Vector Machine.executor": "Run",
     "Python.example.executor": "Run",
     "Python.graphs (1).executor": "Run",
     "Python.main.executor": "Run",
@@ -52,7 +61,7 @@
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.Neural Networks">
     <configuration name="Decission Tree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="heart-disease-prediction" />
       <option name="ENV_FILES" value="" />
@@ -75,7 +84,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="K-Nearest Neighbour" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Neural Networks" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="heart-disease-prediction" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -88,7 +97,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/K-Nearest Neighbour.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Neural Networks.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -97,7 +106,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Logistic Regression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Random Forest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="heart-disease-prediction" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -110,7 +119,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Logistic Regression.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Random Forest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -119,7 +128,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="graphs (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Support Vector Machine" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="heart-disease-prediction" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -132,7 +141,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/graphs.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Support Vector Machine.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -187,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Neural Networks" />
+        <item itemvalue="Python.Support Vector Machine" />
+        <item itemvalue="Python.Random Forest" />
         <item itemvalue="Python.Decission Tree" />
-        <item itemvalue="Python.Logistic Regression" />
         <item itemvalue="Python.naive-bayes" />
-        <item itemvalue="Python.K-Nearest Neighbour" />
-        <item itemvalue="Python.graphs (1)" />
       </list>
     </recent_temporary>
   </component>

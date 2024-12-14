@@ -19,12 +19,6 @@ model.fit(X_train, y_train)
 y_pred = model.predict(X_test)
 
 # Doğruluk, hata matrisi ve sınıflama raporu
-accuracy = accuracy_score(y_test, y_pred)
-conf_matrix = confusion_matrix(y_test, y_pred)
-classification_rep = classification_report(y_test, y_pred)
-
-print(f"Doğruluk: {accuracy:.4f}")
-print("Confusion Matrix:")
-print(conf_matrix)
-print("Classification Report:")
-print(classification_rep)
+print("Doğruluk Oranı:", accuracy_score(y_test, y_pred))
+print("\nSınıflandırma Raporu:\n", classification_report(y_test, y_pred))
+print("\nKarmaşıklık Matrisi:\n", confusion_matrix(y_test, y_pred))
