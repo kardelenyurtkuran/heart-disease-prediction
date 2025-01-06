@@ -1,38 +1,62 @@
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
 from scipy.cluster.hierarchy import linkage, dendrogram, fcluster
+from sklearn.metrics import silhouette_score
+import matplotlib.pyplot as plt
 
-# Veri yükleme
-df = pd.read_csv("cleaned_scaled_heart_disease_data.csv")
-df_numeric = df.select_dtypes(include=[np.number])
 
-# Hiyerarşik kümeleme - Bağlantı matrisinin hesaplanması
-linkage_matrix = linkage(df_numeric, method='ward')
+# İşlenmiş veri setini yükleyin
+data = pd.read_csv('processed_dataset.csv')
 
-# Dendrogram oluşturma
-plt.figure(figsize=(10, 7))
-dendrogram(linkage_matrix, labels=df_numeric.index, leaf_rotation=90, leaf_font_size=8, color_threshold=0.5)
-plt.title('Dendrogram')
-plt.xlabel('Observations')
-plt.ylabel('Distance')
+# 1. Hiyerarşik kümeleme (linkage matrisi oluşturma)
+# 'ward', 'single', 'complete', 'average' yöntemlerinden birini seçebilirsiniz
+linkage_matrix = linkage(data, method='complete', metric='euclidean')
+
+# 2. Dendrogram çizimi
+plt.figure(figsize=(12, 6))
+dendrogram(linkage_matrix, truncate_mode='level', p=5)
+plt.title("Dendrogram")
+plt.xlabel("Veri Noktaları")
+plt.ylabel("Öklid Mesafesi")
 plt.show()
 
-# Optimal küme sayısını belirleme
-# Cut dendrogram at a distance threshold to define the number of clusters
-# Bu örnek seçilecek kümeleri belirtmek içindir
-optimal_clusters = 9  # Bu sayıyı dendrogram'dan seçebilirsiniz
-cluster_labels = fcluster(linkage_matrix, t=optimal_clusters, criterion='maxclust')
+# 3. Küme sayısını belirleme
+# Örnek olarak 2-10 arasında küme sayısını değerlendirelim
+sse = []
+silhouette_scores = []
 
-# K-ortalamalar uygulanarak kümeleri tahmin etme
-from sklearn.cluster import KMeans
+for k in range(2, 11):
+    clusters = fcluster(linkage_matrix, k, criterion='maxclust')
+    sse.append(np.sum((data.values - np.mean(data.values, axis=0)) ** 2))
+    silhouette_scores.append(silhouette_score(data, clusters))
 
-kmeans = KMeans(n_clusters=optimal_clusters, random_state=42)
-df['Cluster_Labels'] = kmeans.fit_predict(df_numeric)
+# SSE ve Silhouette skorlarını görselleştirme
+plt.figure(figsize=(14, 5))
 
-# Sonuçları inceleyin
-print("Optimal number of clusters:", optimal_clusters)
-print("Cluster labels added to the dataframe.")
+plt.subplot(1, 2, 1)
+plt.plot(range(2, 11), sse, marker='o')
+plt.title("Hatanın Karesinin Toplamı (SSE)")
+plt.xlabel("Küme Sayısı")
+plt.ylabel("SSE")
 
-# Kümelere göre veri inceleme
-print(df.groupby('Cluster_Labels').mean())
+plt.subplot(1, 2, 2)
+plt.plot(range(2, 11), silhouette_scores, marker='o')
+plt.title("Silhouette Skoru")
+plt.xlabel("Küme Sayısı")
+plt.ylabel("Silhouette")
+
+plt.tight_layout()
+plt.show()
+
+# 4. Optimum küme sayısına karar verin ve etiketleri ekleyin
+optimal_k = silhouette_scores.index(max(silhouette_scores)) + 2
+print(f"Optimum Küme Sayısı (Silhouette ile): {optimal_k}")
+print(max(silhouette_scores))
+print(f"SSE : {sse}")
+# Son olarak küme etiketlerini veri setine ekleme
+# final_clusters = fcluster(linkage_matrix, optimal_k, criterion='maxclust')
+# data['cluster'] = final_clusters
+#
+# # Yeni veri setini kaydetme
+# data.to_csv('hierarchical_clusters.csv', index=False)
+# print("Kümeleme tamamlandı, sonuçlar 'hierarchical_clusters.csv' olarak kaydedildi.")

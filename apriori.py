@@ -34,3 +34,6 @@ top_15_rules = filtered_rules.nlargest(15, 'lift')
 print("Top 15 Interesting Association Rules:\n")
 for index, row in top_15_rules.iterrows():
     print(f"Rule: {row['antecedents']} => {row['consequents']} | Support: {row['support']:.2f} | Confidence: {row['confidence']:.2f} | Lift: {row['lift']:.2f}")
+
+df_rules = pd.DataFrame(rules)
+df_rules.to_csv("rules_output.csv", index=False)
