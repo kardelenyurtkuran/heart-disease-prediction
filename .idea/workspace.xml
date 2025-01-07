@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94ef92f0-ef0b-4247-baa0-7035f4dbed88" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/data-preprocessing3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dbscan-3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dimensionality-reduction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k-means3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k-means32.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pca.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agglomerative-clustering.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bagged-svm-method.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbscan.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hierarchical-clustering.py" beforeDir="false" afterPath="$PROJECT_DIR$/hierarchical-clustering.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/k-means.py" beforeDir="false" />
-    </list>
+    <list default="true" id="94ef92f0-ef0b-4247-baa0-7035f4dbed88" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
