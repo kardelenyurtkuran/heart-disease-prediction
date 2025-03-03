@@ -4,7 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94ef92f0-ef0b-4247-baa0-7035f4dbed88" name="Changes" comment="" />
+    <list default="true" id="94ef92f0-ef0b-4247-baa0-7035f4dbed88" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/notebooks/exploratory-data-analysis.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/heart-disease-prediction.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/heart-disease-prediction.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2ea1dfc1-66e6-430a-927b-52506bba2609.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Support Vector Machine.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apriori.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c313d48c-c922-4244-bf12-90d884aaa6dd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cleaned_scaled_heart_disease_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/dbscan-3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/dimensionality-reduction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/hierarchical-clustering.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/k-means3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/k-means32.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/pca.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/pca_reduced_dataset.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/processed_dataset.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-preprocessing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-preprocessing2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-preprocessing3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbscan-3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/decission-tree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dimensionality-reduction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ea23fc07-05b4-4698-b66e-22824445f38e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eb7f75f2-f955-4024-bc27-3e5eb4f617ce.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/heart_statlog_cleveland_hungary_final.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hierarchical-clustering.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/k-means3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/k-means32.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/k-nearest-neighbour.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistic-regression.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/naive-bayes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/neural-networks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pca.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pca_reduced_dataset.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processed_dataset.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random-forest-overfitting.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random-forest-underfitting.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random-forest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rules_output.csv" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +57,7 @@
       <list>
         <option value="Python Unit Test" />
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -32,40 +75,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Decission Tree.executor&quot;: &quot;Run&quot;,
-    &quot;Python.K-Nearest Neighbour.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Logistic Regression.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Neural Networks.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Random Forest - Overfitting.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Random Forest - Underfitting.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Random Forest.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Support Vector Machine.executor&quot;: &quot;Run&quot;,
-    &quot;Python.agglomerative-clustering.executor&quot;: &quot;Run&quot;,
-    &quot;Python.apriori.executor&quot;: &quot;Run&quot;,
-    &quot;Python.bagged-svm-method.executor&quot;: &quot;Run&quot;,
-    &quot;Python.data-preprocessing2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.data-preprocessing3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.dbscan-3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.dbscan.executor&quot;: &quot;Run&quot;,
-    &quot;Python.dimensionality-reduction.executor&quot;: &quot;Run&quot;,
-    &quot;Python.example.executor&quot;: &quot;Run&quot;,
-    &quot;Python.graphs (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.graphs.executor&quot;: &quot;Run&quot;,
-    &quot;Python.hierarchical-clustering.executor&quot;: &quot;Run&quot;,
-    &quot;Python.k-means.executor&quot;: &quot;Run&quot;,
-    &quot;Python.k-means3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.k-means32.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.naive-bayes.executor&quot;: &quot;Run&quot;,
-    &quot;Python.pca.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Arge02/PycharmProjects/heart-disease-prediction&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Decission Tree.executor": "Run",
+    "Python.K-Nearest Neighbour.executor": "Run",
+    "Python.Logistic Regression.executor": "Run",
+    "Python.Neural Networks.executor": "Run",
+    "Python.Random Forest - Overfitting.executor": "Run",
+    "Python.Random Forest - Underfitting.executor": "Run",
+    "Python.Random Forest.executor": "Run",
+    "Python.Support Vector Machine.executor": "Run",
+    "Python.agglomerative-clustering.executor": "Run",
+    "Python.apriori.executor": "Run",
+    "Python.bagged-svm-method.executor": "Run",
+    "Python.data-preprocessing2.executor": "Run",
+    "Python.data-preprocessing3.executor": "Run",
+    "Python.dbscan-3.executor": "Run",
+    "Python.dbscan.executor": "Run",
+    "Python.dimensionality-reduction.executor": "Run",
+    "Python.example.executor": "Run",
+    "Python.graphs (1).executor": "Run",
+    "Python.graphs.executor": "Run",
+    "Python.hierarchical-clustering.executor": "Run",
+    "Python.k-means.executor": "Run",
+    "Python.k-means3.executor": "Run",
+    "Python.k-means32.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.naive-bayes.executor": "Run",
+    "Python.pca.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Arge02/PycharmProjects/heart-disease-prediction",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Python.apriori">
     <configuration name="apriori" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="heart-disease-prediction" />
@@ -80,6 +130,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/apriori.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -102,6 +153,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="C:\Users\Arge02\PycharmProjects\heart-disease-prediction\data-preprocessing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -124,6 +176,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dbscan-3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -146,6 +199,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hierarchical-clustering.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -168,6 +222,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/k-means32.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -190,6 +245,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pca.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -212,7 +268,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-babbdf50b680-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.15989.155" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-PY-243.22562.220" />
+        <option value="bundled-python-sdk-0fc6c617c4bd-9a18a617cbe4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.22562.220" />
       </set>
     </attachedChunks>
   </component>
@@ -224,7 +281,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1733343773544</updated>
+      <workItem from="1740982897130" duration="3508000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
