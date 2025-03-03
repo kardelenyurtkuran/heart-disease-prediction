@@ -5,47 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94ef92f0-ef0b-4247-baa0-7035f4dbed88" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/notebooks/exploratory-data-analysis.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/heart-disease-prediction.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/heart-disease-prediction.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2ea1dfc1-66e6-430a-927b-52506bba2609.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Support Vector Machine.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apriori.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/c313d48c-c922-4244-bf12-90d884aaa6dd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleaned_scaled_heart_disease_data.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/dbscan-3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/dimensionality-reduction.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/hierarchical-clustering.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/k-means3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/k-means32.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/pca.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/pca_reduced_dataset.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/processed_dataset.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-preprocessing.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-preprocessing2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-preprocessing3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbscan-3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/decission-tree.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dimensionality-reduction.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ea23fc07-05b4-4698-b66e-22824445f38e.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eb7f75f2-f955-4024-bc27-3e5eb4f617ce.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphs.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heart_statlog_cleveland_hungary_final.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hierarchical-clustering.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/k-means3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/k-means32.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/k-nearest-neighbour.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logistic-regression.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/naive-bayes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/neural-networks.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pca.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pca_reduced_dataset.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/processed_dataset.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random-forest-overfitting.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random-forest-underfitting.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random-forest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules_output.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/exploratory-data-analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/exploratory-data-analysis.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -281,7 +242,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1733343773544</updated>
-      <workItem from="1740982897130" duration="3508000" />
+      <workItem from="1740982897130" duration="13835000" />
     </task>
     <servers />
   </component>
