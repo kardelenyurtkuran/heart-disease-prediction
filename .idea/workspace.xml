@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94ef92f0-ef0b-4247-baa0-7035f4dbed88" name="Changes" comment="" />
+    <list default="true" id="94ef92f0-ef0b-4247-baa0-7035f4dbed88" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cleaned_scaled_heart_disease_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/exploratory-data-analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/exploratory-data-analysis.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/feature-engineering.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/feature-engineering.ipynb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,47 +38,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Decission Tree.executor": "Run",
-    "Python.K-Nearest Neighbour.executor": "Run",
-    "Python.Logistic Regression.executor": "Run",
-    "Python.Neural Networks.executor": "Run",
-    "Python.Random Forest - Overfitting.executor": "Run",
-    "Python.Random Forest - Underfitting.executor": "Run",
-    "Python.Random Forest.executor": "Run",
-    "Python.Support Vector Machine.executor": "Run",
-    "Python.agglomerative-clustering.executor": "Run",
-    "Python.apriori.executor": "Run",
-    "Python.bagged-svm-method.executor": "Run",
-    "Python.data-preprocessing2.executor": "Run",
-    "Python.data-preprocessing3.executor": "Run",
-    "Python.dbscan-3.executor": "Run",
-    "Python.dbscan.executor": "Run",
-    "Python.dimensionality-reduction.executor": "Run",
-    "Python.example.executor": "Run",
-    "Python.graphs (1).executor": "Run",
-    "Python.graphs.executor": "Run",
-    "Python.hierarchical-clustering.executor": "Run",
-    "Python.k-means.executor": "Run",
-    "Python.k-means3.executor": "Run",
-    "Python.k-means32.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.naive-bayes.executor": "Run",
-    "Python.pca.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Arge02/PycharmProjects/ToDoGemini",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Decission Tree.executor&quot;: &quot;Run&quot;,
+    &quot;Python.K-Nearest Neighbour.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Logistic Regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Neural Networks.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Random Forest - Overfitting.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Random Forest - Underfitting.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Random Forest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Support Vector Machine.executor&quot;: &quot;Run&quot;,
+    &quot;Python.agglomerative-clustering.executor&quot;: &quot;Run&quot;,
+    &quot;Python.apriori.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bagged-svm-method.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data-preprocessing2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data-preprocessing3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dbscan-3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dbscan.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dimensionality-reduction.executor&quot;: &quot;Run&quot;,
+    &quot;Python.example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.graphs (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.graphs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hierarchical-clustering.executor&quot;: &quot;Run&quot;,
+    &quot;Python.k-means.executor&quot;: &quot;Run&quot;,
+    &quot;Python.k-means3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.k-means32.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.naive-bayes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pca.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Arge02/PycharmProjects/heart-disease-prediction&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.apriori">
     <configuration name="apriori" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="heart-disease-prediction" />
@@ -240,6 +245,8 @@
       <option name="presentableId" value="Default" />
       <updated>1733343773544</updated>
       <workItem from="1740982897130" duration="16264000" />
+      <workItem from="1741177046092" duration="3156000" />
+      <workItem from="1741200032390" duration="5728000" />
     </task>
     <servers />
   </component>
