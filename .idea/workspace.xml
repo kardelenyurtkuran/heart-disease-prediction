@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="94ef92f0-ef0b-4247-baa0-7035f4dbed88" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cleaned_scaled_heart_disease_data.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/exploratory-data-analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/exploratory-data-analysis.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notebooks/feature-engineering.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/feature-engineering.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -246,7 +244,7 @@
       <updated>1733343773544</updated>
       <workItem from="1740982897130" duration="16264000" />
       <workItem from="1741177046092" duration="3156000" />
-      <workItem from="1741200032390" duration="5728000" />
+      <workItem from="1741200032390" duration="11020000" />
     </task>
     <servers />
   </component>
