@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94ef92f0-ef0b-4247-baa0-7035f4dbed88" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/scripts/artificial-neural-network.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/data-split-cross-validation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/decission-tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/modeling-knn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/random-forest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cleaned_heart_statlog.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/cleaned_heart_statlog.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/feature-engineering.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/feature-engineering.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="94ef92f0-ef0b-4247-baa0-7035f4dbed88" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,7 +64,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Arge02/PycharmProjects/heart-disease-prediction",
+    "last_opened_file_path": "C:/Users/Arge02/PycharmProjects/ToDoGemini",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -253,6 +243,7 @@
       <workItem from="1741177046092" duration="3156000" />
       <workItem from="1741200032390" duration="11171000" />
       <workItem from="1741290488659" duration="4208000" />
+      <workItem from="1741348400663" duration="20000" />
     </task>
     <servers />
   </component>
