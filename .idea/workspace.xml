@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94ef92f0-ef0b-4247-baa0-7035f4dbed88" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/scripts/data_split_cross_validation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/train_logistic_regression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/train_naive_bayes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/exploratory-data-analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/exploratory_data_analysis.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/feature-engineering.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/feature_engineering.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/data-split-cross-validation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/decission-tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/train_decission_tree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/modeling-knn.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/train_knn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/artificial-neural-network.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/evaluate_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/random-forest.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/train_artificial_neural_network.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/train_random_forest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,10 +67,12 @@
     "Python.main.executor": "Run",
     "Python.naive-bayes.executor": "Run",
     "Python.pca.executor": "Run",
+    "Python.train_artificial_neural_network.executor": "Run",
     "Python.train_decission_tree.executor": "Run",
     "Python.train_knn.executor": "Run",
     "Python.train_logistic_regression.executor": "Run",
     "Python.train_naive_bayes.executor": "Run",
+    "Python.train_random_forest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
@@ -89,7 +86,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.train_decission_tree">
+  <component name="RunManager" selected="Python.evaluate_models">
     <configuration name="data-preprocessing" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="heart-disease-prediction" />
       <option name="ENV_FILES" value="" />
@@ -113,7 +110,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="data_split_cross_validation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="evaluate_models" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="heart-disease-prediction" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -127,7 +124,30 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Arge02\PycharmProjects\heart-disease-prediction\scripts\data_split_cross_validation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/evaluate_models.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train_artificial_neural_network" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="heart-disease-prediction" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/train_artificial_neural_network.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,29 +179,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="train_knn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="heart-disease-prediction" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/train_knn.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="train_logistic_regression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="heart-disease-prediction" />
       <option name="ENV_FILES" value="" />
@@ -205,7 +202,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="train_naive_bayes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="train_random_forest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="heart-disease-prediction" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -219,7 +216,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/train_naive_bayes.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/train_random_forest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -230,11 +227,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.evaluate_models" />
+        <item itemvalue="Python.train_artificial_neural_network" />
+        <item itemvalue="Python.train_random_forest" />
         <item itemvalue="Python.train_decission_tree" />
         <item itemvalue="Python.train_logistic_regression" />
-        <item itemvalue="Python.train_naive_bayes" />
-        <item itemvalue="Python.train_knn" />
-        <item itemvalue="Python.data_split_cross_validation" />
       </list>
     </recent_temporary>
   </component>
@@ -261,7 +258,7 @@
       <workItem from="1741348400663" duration="20000" />
       <workItem from="1741635028811" duration="3101000" />
       <workItem from="1741726479222" duration="43000" />
-      <workItem from="1741949884761" duration="330000" />
+      <workItem from="1741949884761" duration="1685000" />
     </task>
     <servers />
   </component>
@@ -273,5 +270,8 @@
     <SUITE FILE_PATH="coverage/heart_disease_prediction$train_logistic_regression.coverage" NAME="train_logistic_regression Coverage Results" MODIFIED="1741643767987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/heart_disease_prediction$data_split_cross_validation.coverage" NAME="data-split-cross-validation Coverage Results" MODIFIED="1741642364585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/heart_disease_prediction$train_naive_bayes.coverage" NAME="train_naive_bayes Coverage Results" MODIFIED="1741643399218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/heart_disease_prediction$train_decission_tree.coverage" NAME="train_decission_tree Coverage Results" MODIFIED="1741950163764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/heart_disease_prediction$train_random_forest.coverage" NAME="train_random_forest Coverage Results" MODIFIED="1741950699727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/heart_disease_prediction$train_artificial_neural_network.coverage" NAME="train_artificial_neural_network Coverage Results" MODIFIED="1741950955464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
   </component>
 </project>
