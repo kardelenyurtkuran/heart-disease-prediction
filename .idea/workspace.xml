@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94ef92f0-ef0b-4247-baa0-7035f4dbed88" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/artificial-neural-network.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/evaluate_models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/random-forest.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/train_artificial_neural_network.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/train_random_forest.py" afterDir="false" />
-    </list>
+    <list default="true" id="94ef92f0-ef0b-4247-baa0-7035f4dbed88" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,6 +52,7 @@
     "Python.dbscan-3.executor": "Run",
     "Python.dbscan.executor": "Run",
     "Python.dimensionality-reduction.executor": "Run",
+    "Python.evaluate_models.executor": "Run",
     "Python.example.executor": "Run",
     "Python.graphs (1).executor": "Run",
     "Python.graphs.executor": "Run",
@@ -76,7 +72,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Arge02/PycharmProjects/heart-disease-prediction",
+    "last_opened_file_path": "C:/Users/Arge02/PycharmProjects/or_logic_gate_ann",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -258,7 +254,7 @@
       <workItem from="1741348400663" duration="20000" />
       <workItem from="1741635028811" duration="3101000" />
       <workItem from="1741726479222" duration="43000" />
-      <workItem from="1741949884761" duration="1685000" />
+      <workItem from="1741949884761" duration="2184000" />
     </task>
     <servers />
   </component>
@@ -268,6 +264,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/heart_disease_prediction$train_knn.coverage" NAME="train_knn Coverage Results" MODIFIED="1741643056535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/heart_disease_prediction$train_logistic_regression.coverage" NAME="train_logistic_regression Coverage Results" MODIFIED="1741643767987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/heart_disease_prediction$evaluate_models.coverage" NAME="evaluate_models Coverage Results" MODIFIED="1741951798661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/heart_disease_prediction$data_split_cross_validation.coverage" NAME="data-split-cross-validation Coverage Results" MODIFIED="1741642364585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/heart_disease_prediction$train_naive_bayes.coverage" NAME="train_naive_bayes Coverage Results" MODIFIED="1741643399218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/heart_disease_prediction$train_decission_tree.coverage" NAME="train_decission_tree Coverage Results" MODIFIED="1741950163764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
