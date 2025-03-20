@@ -47,6 +47,7 @@ for model_name, model_path in model_paths.items():
     train_f1 = f1_score(y_train, y_train_pred, average='weighted')
     test_f1 = f1_score(y_test, y_test_pred, average='weighted')
 
+
     results.append([model_name, train_accuracy, test_accuracy, train_precision,
                     test_precision, train_recall, test_recall,train_f1, test_f1])
 
