@@ -60,5 +60,5 @@ if __name__ == '__main__':
     rf_model = train_random_forest(X_train, y_train, best_params)
 
     # Feature importance
-    print(pd.DataFrame({'feature': X_train.columns, 'importance': dt_model.feature_importances_}).sort_values(
+    print(pd.DataFrame({'feature': X_train.columns, 'importance': rf_model.feature_importances_}).sort_values(
         by='importance', ascending=False))
