@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94ef92f0-ef0b-4247-baa0-7035f4dbed88" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/scripts/train_support_vector_machine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/train_naive_bayes.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/train_naive_bayes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/train_random_forest.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/train_random_forest.py" afterDir="false" />
-    </list>
+    <list default="true" id="94ef92f0-ef0b-4247-baa0-7035f4dbed88" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,58 +33,58 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Decission Tree.executor&quot;: &quot;Run&quot;,
-    &quot;Python.K-Nearest Neighbour.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Logistic Regression.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Neural Networks.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Random Forest - Overfitting.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Random Forest - Underfitting.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Random Forest.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Support Vector Machine.executor&quot;: &quot;Run&quot;,
-    &quot;Python.agglomerative-clustering.executor&quot;: &quot;Run&quot;,
-    &quot;Python.apriori.executor&quot;: &quot;Run&quot;,
-    &quot;Python.bagged-svm-method.executor&quot;: &quot;Run&quot;,
-    &quot;Python.data-preprocessing2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.data-preprocessing3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.data-split-cross-validation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.data_split_cross_validation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.dbscan-3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.dbscan.executor&quot;: &quot;Run&quot;,
-    &quot;Python.dimensionality-reduction.executor&quot;: &quot;Run&quot;,
-    &quot;Python.evaluate_models.executor&quot;: &quot;Run&quot;,
-    &quot;Python.example.executor&quot;: &quot;Run&quot;,
-    &quot;Python.feature_importance.executor&quot;: &quot;Run&quot;,
-    &quot;Python.feature_importance_decission_tree.executor&quot;: &quot;Run&quot;,
-    &quot;Python.graphs (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.graphs.executor&quot;: &quot;Run&quot;,
-    &quot;Python.hierarchical-clustering.executor&quot;: &quot;Run&quot;,
-    &quot;Python.k-means.executor&quot;: &quot;Run&quot;,
-    &quot;Python.k-means3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.k-means32.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.naive-bayes.executor&quot;: &quot;Run&quot;,
-    &quot;Python.pca.executor&quot;: &quot;Run&quot;,
-    &quot;Python.train_artificial_neural_network.executor&quot;: &quot;Run&quot;,
-    &quot;Python.train_decission_tree.executor&quot;: &quot;Run&quot;,
-    &quot;Python.train_knn.executor&quot;: &quot;Run&quot;,
-    &quot;Python.train_logistic_regression.executor&quot;: &quot;Run&quot;,
-    &quot;Python.train_naive_bayes.executor&quot;: &quot;Run&quot;,
-    &quot;Python.train_random_forest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Arge02/PycharmProjects/heart-disease-prediction&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Decission Tree.executor": "Run",
+    "Python.K-Nearest Neighbour.executor": "Run",
+    "Python.Logistic Regression.executor": "Run",
+    "Python.Neural Networks.executor": "Run",
+    "Python.Random Forest - Overfitting.executor": "Run",
+    "Python.Random Forest - Underfitting.executor": "Run",
+    "Python.Random Forest.executor": "Run",
+    "Python.Support Vector Machine.executor": "Run",
+    "Python.agglomerative-clustering.executor": "Run",
+    "Python.apriori.executor": "Run",
+    "Python.bagged-svm-method.executor": "Run",
+    "Python.data-preprocessing2.executor": "Run",
+    "Python.data-preprocessing3.executor": "Run",
+    "Python.data-split-cross-validation.executor": "Run",
+    "Python.data_split_cross_validation.executor": "Run",
+    "Python.dbscan-3.executor": "Run",
+    "Python.dbscan.executor": "Run",
+    "Python.dimensionality-reduction.executor": "Run",
+    "Python.evaluate_models.executor": "Run",
+    "Python.example.executor": "Run",
+    "Python.feature_importance.executor": "Run",
+    "Python.feature_importance_decission_tree.executor": "Run",
+    "Python.graphs (1).executor": "Run",
+    "Python.graphs.executor": "Run",
+    "Python.hierarchical-clustering.executor": "Run",
+    "Python.k-means.executor": "Run",
+    "Python.k-means3.executor": "Run",
+    "Python.k-means32.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.naive-bayes.executor": "Run",
+    "Python.pca.executor": "Run",
+    "Python.train_artificial_neural_network.executor": "Run",
+    "Python.train_decission_tree.executor": "Run",
+    "Python.train_knn.executor": "Run",
+    "Python.train_logistic_regression.executor": "Run",
+    "Python.train_naive_bayes.executor": "Run",
+    "Python.train_random_forest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Arge02/PycharmProjects/FuelEfficiencyPredictor-",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Python.train_naive_bayes">
     <configuration name="data-preprocessing" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="heart-disease-prediction" />
@@ -268,6 +263,7 @@
       <workItem from="1742588742812" duration="19000" />
       <workItem from="1742849067121" duration="12544000" />
       <workItem from="1742943052352" duration="2159000" />
+      <workItem from="1743014443483" duration="14000" />
     </task>
     <servers />
   </component>
