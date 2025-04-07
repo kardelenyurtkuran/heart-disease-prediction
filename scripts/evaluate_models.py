@@ -16,7 +16,8 @@ model_paths = {
     'Logistic Regression': '..\\models\\logistic_regression_model.pkl',
     'Decision Tree': '..\\models\\decision_tree_model.pkl',
     'Random Forest': '..\\models\\random_forest_model.pkl',
-    'ANN': '..\\models\\ann_model.pkl'
+    'ANN': '..\\models\\ann_model.pkl',
+    'SVM': '..\\models\\svm_model.pkl'
 }
 
 # Load Data
