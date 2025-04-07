@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94ef92f0-ef0b-4247-baa0-7035f4dbed88" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/model_performance.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/model_performance.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/evaluate_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/evaluate_models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/train_support_vector_machine.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/train_support_vector_machine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/New Microsoft Excel Worksheet.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/decision_tree.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -270,7 +271,7 @@
       <workItem from="1742849067121" duration="12544000" />
       <workItem from="1742943052352" duration="2159000" />
       <workItem from="1743014443483" duration="14000" />
-      <workItem from="1744064278221" duration="598000" />
+      <workItem from="1744064278221" duration="2070000" />
     </task>
     <servers />
   </component>
