@@ -76,7 +76,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Arge02/PycharmProjects/heart-disease-prediction",
+    "last_opened_file_path": "C:/Users/Arge02/PycharmProjects/FuelEfficiencyPredictor-",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -266,6 +266,7 @@
       <workItem from="1742943052352" duration="2159000" />
       <workItem from="1743014443483" duration="14000" />
       <workItem from="1744064278221" duration="2659000" />
+      <workItem from="1744409386503" duration="27000" />
     </task>
     <servers />
   </component>
